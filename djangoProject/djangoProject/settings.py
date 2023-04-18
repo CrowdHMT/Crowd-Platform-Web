@@ -51,6 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'djangoProject.urls'
+# ROOT_URLCONF = 'hmt.urls'
 
 TEMPLATES = [
     {
@@ -133,7 +134,6 @@ SYSMODELCODEDIA_ROOT = os.path.join(BASE_DIR, 'downloadfile/ModelEvaluateSysmode
 DOWNLOADFILEDIR_ROOT = os.path.join(BASE_DIR, 'downloadfile')
 
 UPLOADUSERMODEL_ROOT = os.path.join(BASE_DIR, 'uploadusermodel')
-
 
 
 CORS_ORIGIN_ALLOW_ALL = True

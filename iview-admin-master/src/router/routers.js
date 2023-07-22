@@ -51,15 +51,7 @@ export default [
       }
     ]
   },
-  // {
-  //   path: '',
-  //   name: 'doc',
-  //   meta: {
-  //     title: '文档',
-  //     href: 'https://lison16.github.io/iview-admin-doc/#/',
-  //     icon: 'ios-book'
-  //   }
-  // },
+  /*  home page by wyz
   {
     path: '/hmthome',
     name: '_hmthome',
@@ -79,6 +71,7 @@ export default [
       }
     ]
   },
+  */
   {
     path: '/cog_natural',
     name: 'cog_natural',
@@ -125,33 +118,33 @@ export default [
         },
         component: () => import('@/view/ModelPerformanceEvaluation/Predefined_model.vue')
       },
-      {
-        path: 'User_defined_model',
-        name: 'User_defined_model',
-        meta: {
-          icon: 'md-clipboard',
-          title: '上传模型'
-        },
-        component: () => import('@/view/ModelPerformanceEvaluation/User_defined_model.vue')
-      },
-      {
-        path: 'model-test1',
-        name: 'model-test1',
-        meta: {
-          icon: 'md-clipboard',
-          title: '测试1'
-        },
-        component: () => import('@/view/ModelPerformanceEvaluation/test.vue')
-      },
-      {
-        path: 'model-test2',
-        name: 'model-test2',
-        meta: {
-          icon: 'md-clipboard',
-          title: '测试2'
-        },
-        component: () => import('@/view/ModelPerformanceEvaluation/test2.vue')
-      },
+      // {
+      //   path: 'User_defined_model',
+      //   name: 'User_defined_model',
+      //   meta: {
+      //     icon: 'md-clipboard',
+      //     title: '上传模型'
+      //   },
+      //   component: () => import('@/view/ModelPerformanceEvaluation/User_defined_model.vue')
+      // },
+      // {
+      //   path: 'model-test1',
+      //   name: 'model-test1',
+      //   meta: {
+      //     icon: 'md-clipboard',
+      //     title: '测试1'
+      //   },
+      //   component: () => import('@/view/ModelPerformanceEvaluation/test.vue')
+      // },
+      // {
+      //   path: 'model-test2',
+      //   name: 'model-test2',
+      //   meta: {
+      //     icon: 'md-clipboard',
+      //     title: '测试2'
+      //   },
+      //   component: () => import('@/view/ModelPerformanceEvaluation/test2.vue')
+      // },
     ]
   },
   {
